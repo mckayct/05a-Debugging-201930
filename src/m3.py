@@ -126,6 +126,8 @@ def broken_1(m):
     for k in range(2 * m + 2):
         if is_prime(k) is True:
             count = count + 1
+        else:
+            count = count
 
     return
 
